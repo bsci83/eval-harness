@@ -1,0 +1,4 @@
+{"name": "egr-cooler", "script": "../repair-agent/examples/diagnose-egr-cooler.json", "family": "egr"}
+{"name": "coolant-in-combustion", "script": "../repair-agent/examples/diagnose-coolant-in-combustion.json", "family": "cooling"}
+{"name": "eca-fault", "script": "../repair-agent/examples/diagnose-eca-fault.json", "family": "electrical"}
+{"name": "fuel-block", "script": "../repair-agent/examples/diagnose-fuel-block.json", "family": "injector"}
