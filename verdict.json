@@ -1,7 +1,7 @@
 {
   "schema": "eval-harness/verdict.v1",
-  "run_id": "d2da11f899fa4fe292872975747f12fc",
-  "commit": "faf47ff64b959b8a6b7238f8a796dfe594e17ced",
+  "run_id": "2bfffeed497a4bf7b81c45de8fb4306f",
+  "commit": "b468820a8856a99eaa6d7d6827e25e845c80a1d2",
   "model": "unknown",
   "provider": "unknown",
   "labelled_from": "activity log",
