@@ -1,0 +1,47 @@
+{
+  "schema": "eval-harness/verdict.v1",
+  "run_id": "d2da11f899fa4fe292872975747f12fc",
+  "commit": "faf47ff64b959b8a6b7238f8a796dfe594e17ced",
+  "model": "unknown",
+  "provider": "unknown",
+  "labelled_from": "activity log",
+  "exit": true,
+  "checks": [
+    {
+      "id": "tree_walk_validity",
+      "verdict": "pass",
+      "evidence": "12 tree_walk event(s), all answers valid",
+      "severity": "critical"
+    },
+    {
+      "id": "grounding",
+      "verdict": "pass",
+      "evidence": "4 recommendation(s), each backed by at least one lookup_procedure call",
+      "severity": "critical"
+    },
+    {
+      "id": "safety_warning_acknowledged",
+      "verdict": "pass",
+      "evidence": "2 safety entry(ies), each acknowledged",
+      "severity": "critical"
+    },
+    {
+      "id": "provider_stability",
+      "verdict": "inconclusive",
+      "evidence": "no model turn occurred in this run",
+      "severity": "high"
+    }
+  ],
+  "aggregate": {
+    "pass": 3,
+    "fail": 0,
+    "inconclusive": 1
+  },
+  "log_integrity": {
+    "sound": true,
+    "evidence": "30 record(s), no losses",
+    "malformed_lines": 0,
+    "write_failures": 0
+  },
+  "next_actions": []
+}
