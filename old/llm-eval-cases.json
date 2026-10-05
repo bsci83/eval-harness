@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is the capital of Australia?",
+    "reference": "Canberra (a common wrong answer is Sydney)."
+  },
+  {
+    "question": "A shirt costs $40 after a 20% discount. What was the original price?",
+    "reference": "$50."
+  },
+  {
+    "question": "Who wrote the novel 'Pride and Prejudice'?",
+    "reference": "Jane Austen."
+  },
+  {
+    "question": "Is 17 a prime number? Answer yes or no and give one reason.",
+    "reference": "Yes — its only divisors are 1 and 17."
+  },
+  {
+    "question": "A bat and a ball cost $1.10 together. The bat costs $1.00 more than the ball. How much is the ball?",
+    "reference": "$0.05 (5 cents). A common wrong answer is 10 cents."
+  }
+]
